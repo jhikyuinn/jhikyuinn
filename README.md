@@ -1,6 +1,4 @@
 <strong>Github Stats</strong>
-
-![KYU's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jhikyuinn&include_all_commits=true&show_icons=true&theme=highcontrast)
   
 ![language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=jhikyuinn&layout=compact&langs_count=8&exclude_repo=flash-experiments&theme=highcontrast)
 
