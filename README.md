@@ -1,5 +1,5 @@
 
-<h3 align="center">🛠 Tech Stack 🛠</h3>
+<h3 align="center">💻 Tech Stack 💻</h3>
 
 <p align="center"> 
 <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> 
