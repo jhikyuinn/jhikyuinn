@@ -1,3 +1,16 @@
+<strong>Github Stats</strong>
+
+![KYU's GitHub Stats](https://github-readme-stats.vercel.app/api?username=jhikyuinn&include_all_commits=true&show_icons=true&theme=highcontrast)
+[![](https://road-to-kaggle-grandmaster.vercel.app/api/badges/sithukaungset/notebook)](https://www.kaggle.com/sithukaungset)
+
+<a href="https://app.dooboo.io/jhikyuinn"><img src="https://server.dooboo.io/github-stats/jhikyuinn" width="600" /></a>
+
+![language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=jhikyuinn&layout=compact&langs_count=8&exclude_repo=flash-experiments&theme=highcontrast)
+
+
+
+
+
 
 <h3 align="center">💻 Tech Stack 💻</h3>
 
