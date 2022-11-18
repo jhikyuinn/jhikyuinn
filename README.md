@@ -1,6 +1,12 @@
-<strong>Github Stats</strong>
+
 <div align=center>
-	<img src="https://capsule-render.vercel.app/api?type=rounded&color=61DAFB&height=200&section=header&text=KYU's%20Github!&fontSize=90" />	
+	<img src="https://capsule-render.vercel.app/api?type=rounded&color=61DAFB&height=120&section=header&text=KYU's%20Github!&fontSize=50" />	
+</div>
+
+<div align=right>
+
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjhikyuinn&count_bg=%2346BECD&title_bg=%23215FDF&icon=adblock.svg&icon_color=%23EDE403&title=hello&edge_flat=false)](https://hits.seeyoufarm.com)
+
 </div>
 
 <h3 align="center">💻 Tech Stack 💻</h3>
@@ -23,7 +29,13 @@
 <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> 
 <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
 </p>
-  
-![language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=jhikyuinn&layout=compact&langs_count=8&exclude_repo=flash-experiments&theme=highcontrast)
 
+<hr>
+
+<div align=center>
+	
+![trophy](https://github-profile-trophy.vercel.app/?username=jhikyuinn&row=2&column=3)
+![language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=jhikyuinn&layout=compact&langs_count=8&exclude_repo=flash-experiments&theme=highcontrast)
+	
+</div>
 
