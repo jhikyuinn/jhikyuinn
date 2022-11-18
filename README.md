@@ -1,9 +1,7 @@
 <strong>Github Stats</strong>
-  
-![language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=jhikyuinn&layout=compact&langs_count=8&exclude_repo=flash-experiments&theme=highcontrast)
-
-
-
+<div align=center>
+	<img src="https://capsule-render.vercel.app/api?type=rounded&color=61DAFB&height=200&section=header&text=KYU's%20Github!&fontSize=90" />	
+</div>
 
 <h3 align="center">💻 Tech Stack 💻</h3>
 
@@ -25,3 +23,7 @@
 <a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> 
 <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
 </p>
+  
+![language stats](https://github-readme-stats.vercel.app/api/top-langs/?username=jhikyuinn&layout=compact&langs_count=8&exclude_repo=flash-experiments&theme=highcontrast)
+
+
