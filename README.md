@@ -56,7 +56,7 @@ Hyperledger Fabric 위에서 **트랜잭션 재정렬로 처리량 높이기** �
 - **[SCI]** AI Agent-Based Blockchain Transaction Sequencer for Intent-Aware Transaction Ordering, *IEEE Access*, 2026 — 1저자
 - **[KCI]** 허가형 블록체인을 위한 서비스 인지형 AI 에이전트 기반 트랜잭션 순서 결정 기법, *정보과학회 컴퓨팅의 실제 논문지* 32권 5호, 2026 — 1저자
 - **[Int'l Conf.]** TD-ORDERER: Transaction Dependency Orderer, *ICTC*, 2025 — 1저자
-- **[Domestic]** MLOps 환경의 AI 모델 및 데이터 신뢰성 보장을 위한 블록체인 기술, *KSC 2025* — 1저자
+- **[Domestic]** MLOps 환경의 AI 모델 및 데이터 신뢰성 보장을 위한 블록체인 기술, *KSC 2025* — 2저자
 - **[Domestic]** 트랜잭션 재정렬을 통한 하이퍼레저 패브릭의 처리량 향상, *KSC 2024* — 1저자
 - **[M.S. Thesis]** A Study on Transaction Reordering Techniques in the Hyperledger Fabric Platform for Enhancing Blockchain Service Satisfaction, 2025
 
