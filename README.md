@@ -92,7 +92,7 @@ Hyperledger Fabric 위에서 **트랜잭션 재정렬로 처리량 높이기** �
 
 - **인천대학교** 석사 (2024.03 – 2026.03)
 - **동국대학교** 경주캠퍼스 학사 (2019.03 – 2023.02)
-- AWS Certified Cloud Practitioner (2024.12) · OPIc IH (2025.11) · 정보처리기사 필기 합격
+- AWS Certified Cloud Practitioner (2024.12) · OPIc IH (2025.11) · 정보처리기사 합격
 
 ---
 
