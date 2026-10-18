@@ -46,7 +46,8 @@ Hyperledger Fabric 위에서 **트랜잭션 재정렬로 처리량 높이기** �
 | 프로젝트 | 설명 | 성과 |
 |---|---|---|
 | **[AI Agent Transaction Sequencer](링크)** | 서비스 의도(intent)를 인지하는 AI 에이전트가 트랜잭션 순서를 결정하는 허가형 블록체인 시퀀서 | **IEEE Access (SCI)** · KCI 게재 · SW 저작권 등록|
-| **[TD-Orderer](링크)** | 트랜잭션 의존성 분석으로 충돌을 줄이는 Hyperledger Fabric Orderer | **ICTC** 발표 · 특허 출원 · SW 저작권 등록 |
+| **[TD-Orderer](https://github.com/jhikyuinn/Serializer)** | 트랜잭션 의존성 분석으로 충돌을 줄이는 Hyperledger Fabric Orderer | **ICTC** 발표 · 특허 출원 · SW 저작권 등록 |
+| [Serializer Extended](https://github.com/jhikyuinn/Serializer-extended) | Fabric 트랜잭션 충돌을 블록에 넣기 전에 Kafka 정렬 서비스에서 풀고, 버린 기록은 BFT 합의망에 남기는 외부 정렬 서비스. 연구 이후 고가용성과 AWS 실험까지 확장 | AWS 1,000 TPS에서 Fabric 대비 성공 처리량 ×1.31~2.98 · 장애 복구 11.8 s → 5.4 s|
 | **[Fabric P2P Chat](링크)** | Hyperledger Fabric 기반 P2P 채팅 애플리케이션 | 동국대 컴퓨터공학과 **최우수 논문상** |
 
 ---
