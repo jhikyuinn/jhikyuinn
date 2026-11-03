@@ -10,7 +10,7 @@ Hyperledger Fabric 위에서 **트랜잭션 재정렬로 처리량 높이기** �
 - 🏢 인턴 3회: 포항공대 MCNL · 인천대 DWEB · **모비젠 아키텍처팀(사내 인프라 CI/CD 구축)**
 - 🧑‍🏫 블록체인 칼리지 · 웹 프로그래밍 수업 조교
 - 🤖 **AI 에이전트** (CrewAI · MCP · n8n)를 연구와 자동화 워크플로에 직접 적용
-- 🌱 지금은 CI/CD 구축과 **배포 · 운영** (모니터링, 무중단 배포, 장애 대응)을 공부
+- 🌱 지금은 **Spring Boot 백엔드**와 **배포 · 운영** (CI/CD, Kubernetes, 모니터링, 장애 대응)을 직접 만들면서 공부하고 있습니다
 
 ---
 
@@ -19,7 +19,13 @@ Hyperledger Fabric 위에서 **트랜잭션 재정렬로 처리량 높이기** �
 **Language**
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+**Backend / Database**
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 **Distributed System / Blockchain**
 ![Hyperledger Fabric](https://img.shields.io/badge/Hyperledger%20Fabric-2F3134?style=flat-square&logo=hyperledger&logoColor=white)
@@ -37,18 +43,29 @@ Hyperledger Fabric 위에서 **트랜잭션 재정렬로 처리량 높이기** �
 **Infra / DevOps**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 
 ---
 
 ## 🚀 Featured Projects
 
+### 연구
+
 | 프로젝트 | 설명 | 성과 |
 |---|---|---|
-| **[AI Agent Transaction Sequencer](링크)** | 서비스 의도(intent)를 인지하는 AI 에이전트가 트랜잭션 순서를 결정하는 허가형 블록체인 시퀀서 | **IEEE Access (SCI)** · KCI 게재 · SW 저작권 등록|
+| **AI Agent Transaction Sequencer** | 서비스 의도(intent)를 인지하는 AI 에이전트가 트랜잭션 순서를 결정하는 허가형 블록체인 시퀀서 (CrewAI · Hyperledger Fabric) | **IEEE Access (SCI)** · KCI 게재 · SW 저작권 등록 |
 | **[TD-Orderer](https://github.com/jhikyuinn/Serializer)** | 트랜잭션 의존성 분석으로 충돌을 줄이는 Hyperledger Fabric Orderer | **ICTC** 발표 · 특허 출원 · SW 저작권 등록 |
-| [Serializer Extended](https://github.com/jhikyuinn/Serializer-extended) | Fabric 트랜잭션 충돌을 블록에 넣기 전에 Kafka 정렬 서비스에서 풀고, 버린 기록은 BFT 합의망에 남기는 외부 정렬 서비스. 연구 이후 고가용성과 AWS 실험까지 확장 | AWS 1,000 TPS에서 Fabric 대비 성공 처리량 ×1.31~2.98 · 장애 복구 11.8 s → 5.4 s|
-| **[Fabric P2P Chat](링크)** | Hyperledger Fabric 기반 P2P 채팅 애플리케이션 | 동국대 컴퓨터공학과 **최우수 논문상** |
+| [Serializer Extended](https://github.com/jhikyuinn/Serializer-extended) | Fabric 트랜잭션 충돌을 블록에 넣기 전에 Kafka 정렬 서비스에서 풀고, 버린 기록은 BFT 합의망에 남기는 외부 정렬 서비스. 연구 이후 고가용성과 AWS 실험까지 확장 | AWS 1,000 TPS에서 Fabric 대비 성공 처리량 ×1.31~2.98 · 장애 복구 11.8 s → 5.4 s |
+
+### 개인 프로젝트
+
+| 프로젝트 | 설명 | 상태 |
+|---|---|---|
+| **[FootPrint](https://github.com/jhikyuinn/FootPrint)** | 대화는 P2P DB(GunDB)에, 대화 해시는 Hyperledger Fabric에 기록해 대화 기록이 바뀌지 않았는지 확인하는 메신저. 메시지 서명 검증, 앱 없이 검증 가능한 회의록 내보내기, 메시지가 많은 방의 로딩 측정 · 개선 | 동국대 컴퓨터공학과 **최우수 논문상** (2022) · 2026 개선 중 |
+| **Fairslot** | 네트워크 지연과 상관없이 한정된 자원을 공정하게 배분하는 시스템. 첫 시나리오는 티켓팅. 지연 시간별 당첨률 측정, 초과 판매 방지 · 멱등성, Kafka 이벤트, Kubernetes · GitOps · 모니터링까지 직접 운영 (Spring Boot · PostgreSQL · Redis · Kafka) | 🚧 진행 중 (reservation-service) |
+| **[오늘의 자격증](https://github.com/jhikyuinn/Todaycertificate)** | 시험일, 과락 위험 과목, 오답을 바탕으로 오늘 풀 기출 문제를 골라 주는 국가자격 필기 학습 앱. 2022년 Express + MySQL 앱을 Spring Boot + PostgreSQL로 다시 만드는 중 | 🚧 진행 중 |
+| 일본어 학습 자동화 | n8n이 매일 일본 뉴스를 모으면, AI 에이전트가 낯선 단어를 뽑아 MCP로 연결한 Notion 단어장에 없는 단어만 뜻 · 예문과 함께 추가하고, 기사를 음성으로 바꿔 청해 연습에 사용 | 매일 사용 중 · 개인화 개선 예정 |
 
 ---
 
@@ -73,7 +90,8 @@ Hyperledger Fabric 위에서 **트랜잭션 재정렬로 처리량 높이기** �
 
 | 기간 | 소속 | 내용 |
 |---|---|---|
-| 2025.06 – 2025.08 | 모비젠 아키텍처팀 인턴 | 사내 인프라 CI/CD 구축 테스트 |
+| 2025.06 – 2025.08 | 모비젠 아키텍처팀 인턴 | Docker · Kubernetes · Jenkins로 사내 인프라 CI/CD 구축 |
+| 2023.09 – 2026.02 | 국가 R&D 과제 연구원 | 노드 간 메시지 전달 · 합의 최적 경로 프로토콜 (AWS 서울 · 도쿄 20노드, TTA 인증시험 목표 8 s 대비 3.73 s 합의) · 블록체인 기반 Web 3.0 실시간 서비스 |
 | 2023.09 – 2024.02 | 인천대학교 DWEB 인턴 | 블록체인 네트워크 개선 |
 | 2023.01 – 2023.07 | 포항공과대학교 MCNL 인턴 | 블록체인 네트워크 개선 |
 | 2022.03 – 2022.12 | 동국대학교 INLAB 학부연구생 | 블록체인 연구 |
@@ -81,7 +99,7 @@ Hyperledger Fabric 위에서 **트랜잭션 재정렬로 처리량 높이기** �
 ## 🧑‍🏫 Teaching & Activities
 
 - 인천 블록체인 칼리지 조교 — 인천테크노파크 (2025.07–08, 2025.11–12)
-- 수업 조교 — 웹 프로그래밍, 블록체인
+- 수업 조교 — 웹 프로그래밍, 블록체인 (인천대학교)
 - 카인사이드아웃 · 커넥티드카 네트워크 교육 수료 — 현대엔지비 (2026.04–06)
 
 ## 🏆 Awards
@@ -91,13 +109,12 @@ Hyperledger Fabric 위에서 **트랜잭션 재정렬로 처리량 높이기** �
 
 ## 🎓 Education & Certifications
 
-- **인천대학교** 석사 (2024.03 – 2026.03)
-- **동국대학교** 경주캠퍼스 학사 (2019.03 – 2023.02)
-- AWS Certified Cloud Practitioner (2024.12) · OPIc IH (2025.11) · 정보처리기사 합격
+- **인천대학교** 컴퓨터공학과 석사 (2024.03 – 2026.02) · GPA 4.25/4.5
+- **동국대학교** 경주캠퍼스 컴퓨터공학과 학사 (2019.03 – 2023.02)
+- AWS Certified Cloud Practitioner (2024.12) · OPIc IH (2025.11) · 정보처리기사 
 
 ---
 
 ## 📫 Contact
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:hnn991206@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EA%B7%9C%EC%9D%B8%EC%A7%80-184180367/)
-
